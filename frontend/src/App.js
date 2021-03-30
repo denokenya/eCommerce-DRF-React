@@ -12,11 +12,13 @@ function App() {
   return (
     <Router>
       <Header />
-      <Container>
-        <Route path="/" component={HomeScreen} exact />
-        <Route path="/product/:id" component={ProductScreen} />
-        <Route path="/cart/:id?" component={CartScreen} />
-      </Container>
+      <main className="py-3">
+        <Container>
+          <Route path="/" component={HomeScreen} exact />
+          <Route path="/product/:id" component={ProductScreen} />
+          <Route path="/cart/:id?" component={CartScreen} />
+        </Container>
+      </main>
       <Footer />
     </Router>
   );
