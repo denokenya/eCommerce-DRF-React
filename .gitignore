@@ -87,7 +87,7 @@ doc/_build/
 
 # Environments
 /backend/venv/
-
+/backend/.idea/
 # mypy
 .mypy_cache/
 .dmypy.json
